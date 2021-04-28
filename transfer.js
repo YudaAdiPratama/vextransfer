@@ -23,12 +23,12 @@ vex.transaction(
         account: 'vyndaoutoken',
         name: 'transfer',
         authorization: [{
-          actor: 'testingapp21',
+          actor: 'account',
           permission: 'active'
         }],
         data: {
-          from: 'testingapp21',
-          to: 'forumcreate1',
+          from: 'account',
+          to: 'account',
           quantity: '0.01000000 VYN',
           memo: 'test'
         }
